@@ -1,0 +1,17 @@
+c# Notes:
+1) First click on the vscode 2022 then choose windows application, desktop and then you can modify the forms whatever you want.
+2) For creating additional Forms.cs files, we need to right click on the ProjectFile, Add option and choose the windows file.
+3) For Keyboard input to labels, we use KeyDown options.
+4) For tabswitching, we use tabControl.
+5) For poping up new tabs, we create a .cs file and then we initialize the class there( Eg:- when pressed on button, we initialize that class there). And then we use SlowDialog() to display.
+
+####### Sending Email for "FORGOT PASSWORD" ##########
+ref: https://www.youtube.com/watch?v=laemesEzjZ4&t=210s
+1) Create MailMessage class
+2) Create from, to E-mail addresses for to and fro transfer.
+3) SmtpClient is used to send Emails.
+4) we enable SSL encryption using EnableSsl.
+5) NetworkCredentials is used for authentication of the passkey.
+
+#########################################
+To open toolbox in c#.net desktop application press Ctrl + X + alt.
